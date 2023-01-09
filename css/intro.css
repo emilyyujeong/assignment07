@@ -1,0 +1,134 @@
+.inner {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    background: #fff;
+    line-height: 100px;
+}
+
+#header h1 {
+    font-size: 0;
+}
+
+#header .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .gnb {}
+
+#header .gnb>ul {
+    display: flex;
+    gap: 80px;
+}
+
+#header .gnb>ul a {
+    display: block;
+}
+
+#header .gnb>ul a:hover {
+    color: rgb(22, 192, 44);
+}
+
+
+
+
+
+.mainVisual {
+    position: relative;
+    height: 300px;
+    background: url(../img/sub_top_01.jpg)no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+}
+
+.mainVisual .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+
+
+.mainVisual h2 {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.mainVisual p {
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+
+
+.main_information {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main_information h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main_information p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+#footer {
+    padding: 20px 0;
+    background: #ddd;
+    text-align: center;
+
+}
+
+#footer .top {
+    display: inline-block
+}
+
+#footer .top ul {
+    display: flex;
+    font-size: 25px;
+
+}
+
+#footer .top i {
+    margin: 20px 10px;
+}
+
+#footer .bottom {
+    line-height: 20px;
+}
+
+#footer .bottom strong {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#footer .bottom .info>ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    line-height: 25px;
+}
+
+#footer .bottom a {
+    display: block;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.copy {
+    margin: 30px 0;
+}
